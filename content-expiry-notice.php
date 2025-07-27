@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: Content Expiry Notice
- * Plugin URI: https://example.com/plugins/content-expiry-notice
+ * Plugin URI: https://github.com/satalways/content-expiry-notice.git
  * Description: Add expiration dates to your posts and pages and display customizable notices when content is approaching expiration or has expired.
  * Version: 1.0.0
- * Author: Junie
- * Author URI: https://example.com
+ * Author: Shakeel Ahmed Siddiqi
+ * Author URI: https://shakeel.pk
  * License: GPL-2.0+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain: content-expiry-notice
