@@ -1,0 +1,51 @@
+/**
+ * Content Expiry Notice Styles
+ */
+
+.cen-notice {
+    margin: 1em 0;
+    padding: 1em;
+    border-radius: 4px;
+    border-left: 4px solid;
+    font-size: 1em;
+    line-height: 1.5;
+}
+
+/* Info style (blue) */
+.cen-info {
+    background-color: #e5f5fa;
+    border-color: #00a0d2;
+    color: #00566b;
+}
+
+/* Warning style (yellow) */
+.cen-warning {
+    background-color: #fff8e5;
+    border-color: #ffb900;
+    color: #664500;
+}
+
+/* Error style (red) */
+.cen-error {
+    background-color: #fbeaea;
+    border-color: #dc3232;
+    color: #8a1f1f;
+}
+
+/* Upcoming expiry notice */
+.cen-upcoming {
+    font-weight: normal;
+}
+
+/* Expired notice */
+.cen-expired {
+    font-weight: bold;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 782px) {
+    .cen-notice {
+        padding: 0.75em;
+        font-size: 0.95em;
+    }
+}
